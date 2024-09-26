@@ -1,0 +1,15 @@
+.body{
+    position: relative;
+}
+.messenger-icon{
+    position: fixed;
+    bottom: 28px;
+    right: 20px;
+    padding: 4px;
+    cursor: pointer;
+    color: #01a14b;
+    &:hover{
+        color: rgba( #01a14b, 0.84);
+    }
+
+}

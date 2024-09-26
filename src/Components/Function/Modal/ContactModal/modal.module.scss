@@ -1,0 +1,88 @@
+/* modal.module.scss */
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.close-icon {
+    position: absolute;
+    top: -24px;
+    right: -20px;
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+    border-radius: 50%;
+    font-size: 23px;
+    color: var(--black);
+    cursor: pointer;
+
+    &:hover {
+        background-color: #e0e0e0;
+    }
+}
+
+.main-icon {
+    margin-top: 10px;
+    font-size: 74px;
+    margin-bottom: 20px;
+    color: #01a14b;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.btn-contact,
+.btn-login {
+    font-weight: 700;
+    padding: 15px 16px;
+    border-radius: 10px;
+}
+
+.btn-contact {
+    background-color: #e0e0e0;
+    border: none;
+    color: #4d4a50;
+    margin-bottom: 48px;
+    &:hover {
+        background-color: #e0e0e0;
+    }
+}
+
+.login-paragraph {
+    text-align: center;
+    color: #696969;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+.btn-login {
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.notify {
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    margin-bottom: 44px;
+}
+
+.link-logout {
+    color: #0077cc;
+}
+
+.messenger {
+    color: #696969;
+    font-size: 12px;
+}

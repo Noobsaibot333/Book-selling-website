@@ -1,0 +1,165 @@
+.wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 1028px;
+}
+
+.contain {
+    height: 100%;
+    width: 1200px;
+    display: flex;
+    font-size: 14px;
+    color: #555555;
+}
+
+//illustration
+.product-illustration {
+    width: 500px;
+    padding: 0 15px;
+
+    p {
+        background-color: grey;
+        position: absolute;
+        width: 500px;
+        color: white;
+        margin-top: -57px;
+        z-index: 1;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+}
+
+.product-image {
+    z-index: -1;
+}
+
+.product-content {
+    width: 700px;
+    padding: 0 15px;
+}
+
+.product-title {
+    color: #212121;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 12px;
+}
+
+.product-code {
+    margin-bottom: 12px;
+}
+
+.product-prince {
+    height: 66px;
+    line-height: 48px;
+    display: inline-block;
+    color: #01a14b;
+    font-size: 30px;
+}
+
+.prince-old {
+    font-size: 28px;
+    color: #b0b0b0;
+    margin-left: 20px;
+    text-decoration: line-through;
+
+}
+
+.product-describe {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.product-infor {
+    width: 50%;
+    margin-bottom: 12px;
+
+    strong {
+        display: inline-block;
+        min-width: 137px;
+        padding-right: 40px;
+    }
+}
+
+.product-brief {
+    margin-top: 20px;
+    margin-bottom: 26px;
+
+    strong {
+        padding-bottom: 8px;
+        display: inline-block;
+    }
+
+}
+
+.product-voucher {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 16px;
+
+    h3 {
+        display: inline-block;
+        margin-bottom: 26px;
+        ;
+    }
+
+    Button {
+        color: rgb(236, 70, 153);
+        padding: 10px 10px;
+
+        &:hover {
+            background-color: rgba(236, 70, 153, 0.06);
+        }
+    }
+}
+
+
+.product-selector {
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 26px;
+
+    select {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    span {
+        margin-right: 12px;
+    }
+}
+
+
+.product-version {
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+
+.status {
+    position: absolute;
+    bottom: 0;
+}
+
+.product-quanlity {
+    Button {
+        min-width: 60px;
+        height: 50px;
+        background-color: #333;
+        color: #fff;
+        font-weight: 300;
+        margin-left: 0px !important;
+        border-radius: 0px;
+        border: 1px solid #fff;
+    }
+
+    .product-cart {
+        margin-left: 60px !important;
+    }
+}
